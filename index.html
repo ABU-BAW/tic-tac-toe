@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tic-tac-toe</title>
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="styles.css">
-    <style src="javascript.js"></style>  
+    <script src="javascript.js" defer></script>
 </head>
 <body>
     <div class="game-container">
         <h1>Tic-Tac-Toe</h1>
         <div class="player-input">
-            <input type="text" id="player-1" placeholder="player 1 name">
-            <input type="text" id="player-2" placeholder="player 2 name">
+            <input type="text" id="player1" placeholder="Player 1 Name">
+            <input type="text" id="player2" placeholder="Player 2 Name">
         </div>
         <button id="start-game">Start Game</button>
         <div id="game-board" class="game-board"></div>
         <div id="game-status"></div>
-        <button id="restart-game">Restart Game</button>
+        <button id="restart-game" style="display: none;">Restart Game</button>
     </div>
+    
 </body>
 </html>
